@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .--custom--transition--navName {
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 350ms;
+  }
+}
+@media screen and (min-width: 768px) {
+  .--custom--transition--navName {
+    transform: translateX(0);
+    opacity: 1;
+    transition: 350ms;
+  }
+}
+@media screen and (min-width: 480px) {
+  .--navIcon {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.menu-btn {
+  cursor: pointer;
+  z-index: 3;
+  transition: all 0.5s ease-out;
+}
+.btn-line {
+  width: 28px;
+  height: 3px;
+  margin-top: 5px;
+  background: white;
+  transition: all 0.5s ease-out;
+}
+.menu-btn-close {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.menu-btn-close .btn-line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-btn-close .btn-line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-btn-close .btn-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.--hideOnIntersection_logoName {
+  animation: hide-on-intersection_logoName 0.7s;
+  opacity: 0;
+}
+.--revealWhileNotIntersecting_logoName {
+  animation: reveal-while-notIntersecting_logoName 0.7s;
+}
+
+.--hideOnIntersection_navList {
+  animation: hide-on-intersection_navList 0.7s;
+  opacity: 0;
+}
+
+.--revealWhileNotIntersecting_navList {
+  animation: reveal-while-notIntersecting_navList 0.7s;
+}
+
+.--slideInMenu:nth-child(1) {
+  animation: slideFromLeft 500ms ease-out;
+}
+.--slideInMenu:nth-child(2) {
+  animation: slideFromLeft 600ms ease-out;
+}
+.--slideInMenu:nth-child(3) {
+  animation: slideFromLeft 700ms ease-out;
+}
+
+.--background--text {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.foreground--text {
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  font-size: 15vw;
+  color: white;
+  transform: scale(1, 1.1) translate(-50%, 10%);
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes hide-on-intersection_logoName {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+}
+@keyframes reveal-while-notIntersecting_logoName {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes hide-on-intersection_navList {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+}
+
+@keyframes reveal-while-notIntersecting_navList {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
