@@ -189,7 +189,7 @@ const Contact = () => {
               life.
               <br />
               <br />
-              As a passed out of 2022, I can promise you two things , I know
+              As a fresher, I can promise you two things , I know
               things and I can and will learn faster.
               <br />
               <br />
@@ -210,7 +210,7 @@ const Contact = () => {
                   </span>
                   &nbsp;
                   <span className="active:underline sm:hover:font-semibold">
-                    rahulsaamanth@outlook.com
+                    rahulsaamanth@yahoo.com
                   </span>
                   &nbsp;
                   {mailCopied && (

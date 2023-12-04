@@ -52,7 +52,7 @@ const WhatDoIOffer = () => {
           </h4>
           <p className="leading-8">
             Creating and crafting intuitive user interfaces and user experiences
-            that elevate digital products needs expertise in frameworks like
+            that elevate digital products needs expertise in Figma and frameworks like
             framer-motion, tailwind css. Don't worry I got this.
           </p>
         </div>
@@ -61,10 +61,9 @@ const WhatDoIOffer = () => {
             Mobile Application Development
           </h4>
           <p className="leading-8">
-            Coming to MAD , I have recently experimenting with it, that's why
-            you see a little "less than" symbol in the intro. Using React-Native
-            and I gotta say am pretty good at it. And also it provides
-            cross-platform support.
+            Coming to MAD , I have recently experimenting with it,
+Using React-Native and I gotta say am pretty good at it.
+And had build few projects like Deliveroo, TODO and more..
           </p>
         </div>
       </div>

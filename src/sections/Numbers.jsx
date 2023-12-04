@@ -28,14 +28,14 @@ const Numbers = () => {
       <div className="w-full h-[500px] overflow-hidden relative flex justify-center items-center flex-col">
         <div className="flex">
           <h1 className="relative z-20  text-[64px] max-sm:text-[34px] max-md:text-[46px] max-lg:text-[58px] drop-shadow-[0_35px_35px_rgba(255,255,255,0.2)]">
-            No. of &nbsp;&nbsp;Projects
+            No. of Projects
           </h1>
         </div>
         <motion.h1
           style={{ y: translateYProgress }}
           className="absolute z-10 font-bold text-[120px] max-sm:text-[64px] max-md:text-[72px] max-lg:text-[98px] "
         >
-          03&nbsp;
+          10+
         </motion.h1>
       </div>
       <div className="w-full h-[500px] overflow-hidden relative flex justify-center items-center flex-col">
@@ -48,7 +48,7 @@ const Numbers = () => {
           style={{ y: translateYProgress }}
           className="absolute z-10 font-bold text-[120px] max-sm:text-[64px] max-md:text-[72px] max-lg:text-[98px] "
         >
-          101
+          101%
         </motion.h1>
       </div>
     </div>
