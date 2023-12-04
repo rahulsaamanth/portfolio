@@ -153,10 +153,36 @@ const Contact = () => {
                 ? "Thank you for your time"
                 : "submit"}
             </button>
+            <div className="flex items-center justify-center space-x-6 text-center">
+              <p>profiles:&nbsp;</p>
+              <a
+                href="https://github.com/rahulsaamanth"
+                target="_blank"
+                className="underline text-center"
+              >
+                GitHub<sup>↗</sup>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rahulsaamanth/"
+                target="_blank"
+                className="underline text-center"
+              >
+                LinkedIn<sup>↗</sup>
+              </a>
+            </div>
+            <div className="flex items-center justify-center space-x-6 text-center">
+              <p>source code:&nbsp;</p>
+              <a
+                href="https://github.com/rahulsaamanth/portfolio"
+                className="underline text-center"
+              >
+                here<sup>↗</sup>
+              </a>
+            </div>
           </form>
           <div className="flex-1 text-[18px]">
             <p>
-              If you have a project in mind or are locking for a skilled
+              If you have a project in mind or are looking for a skilled
               developer to join your team, I'd like to hear more about it. From
               web development to design and everything in between, I'm ready to
               contribute my expertise and passion to help bring your ideas to

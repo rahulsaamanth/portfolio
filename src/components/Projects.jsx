@@ -18,7 +18,7 @@ const ProjectCard = ({ setSelected, project }) => {
           onClick={() => {
             setSelected(project)
           }}
-          className="rounded-lg font-bold text-[28px] sm:text-[36px] cursor-pointer hover:underline underline-offset-2 w-fit"
+          className="rounded-lg font-bold text-[28px] sm:text-[36px] cursor-pointer underline hover:no-underline underline-offset-2 w-fit"
         >
           {project.title}&nbsp;<sup>↗</sup>
         </motion.h3>
